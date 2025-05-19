@@ -5,8 +5,8 @@ import java.awt.*;
 public class Ball {
     private int x, y;
     private int diameter = 20;
-    private int xSpeed = 3;
-    private int ySpeed = -3;
+    private int xSpeed = 6;
+    private int ySpeed = -6;
 
     public Ball(int x, int y) {
         this.x = x;
@@ -31,7 +31,7 @@ public class Ball {
     }
 
     public void draw(Graphics g) {
-        g.setColor(Color.WHITE);
+        g.setColor(Color.red);
         g.fillOval(x, y, diameter, diameter);
     }
 
