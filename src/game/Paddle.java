@@ -5,9 +5,9 @@ import java.awt.event.KeyEvent;
 
 public class Paddle {
     private int x, y;
-    private final int width = 150;  // Bigger paddle
+    private final int width = 150;
     private final int height = 15;
-    private final int speed = 8;
+    private final int speed = 10;
     private boolean moveLeft = false;
     private boolean moveRight = false;
 

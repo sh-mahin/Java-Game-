@@ -5,8 +5,8 @@ import java.awt.*;
 
 public class Brick {
     private int x, y;
-    private final int width = 100; // ⬅️ Larger brick width
-    private final int height = 40; // ⬅️ Larger brick height
+    private final int width = 100;
+    private final int height = 40;
     private boolean destroyed = false;
     private Image brickImage;
 

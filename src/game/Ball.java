@@ -31,7 +31,7 @@ public class Ball {
     }
 
     public void draw(Graphics g) {
-        g.setColor(Color.red);
+        g.setColor(Color.CYAN);
         g.fillOval(x, y, diameter, diameter);
     }
 

@@ -12,11 +12,11 @@ public class BrickManager {
     }
 
     private void initBricks() {
-        int rows = 2; // Only 2 rows
-        int cols = 5; // 5 bricks per row
+        int rows = 3;
+        int cols = 6;
         int spacing = 10;
         int brickWidth = 100;
-        int brickHeight = 40;
+        int brickHeight = 50;
 
         int startX = (800 - (cols * (brickWidth + spacing))) / 2;
         int startY = 60;
